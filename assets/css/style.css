@@ -1,0 +1,21 @@
+
+
+
+.turqline {
+    background: #4aaaa5;
+}
+
+footer {
+    width: 100%;
+    top-margin: 20px;
+    background: dimgray;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
