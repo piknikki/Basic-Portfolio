@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.container {
+    background: lightslategrey;
+}
+
+.firstlayer {
+    width: 60%;
+    margin: 0 auto;
+    background: white;
+}
+
+.secondlayer {
+    width: 60%;
+    margin: 0 auto;
+    background: lightpink;
+}
+
+.thirdlayer {
+    width: 60%;
+    margin: 0 auto;
+    background: lightblue;
+}
