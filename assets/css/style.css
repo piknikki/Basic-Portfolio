@@ -23,17 +23,12 @@ body {
 
 .container {
     /*background-image: url("/assets/images/gravel.png");*/
-    background: lightgray;
+    /*background: lightgray;*/
     background-size: cover;
     padding: 30px;
 }
 
-.turqline {
-    background: #4aaaa5;
-
-}
-
-header {
+.topbar {
     width: 100%;
     background: white;
     margin: 20px;
@@ -89,8 +84,8 @@ h1 {
 }
 
 .contentbox {
-    width: 80%;
-    margin: 20px auto;
+
+    margin: 0 auto;
     text-align: left;
     background: white;
     padding: 30px;
@@ -109,6 +104,9 @@ footer {
     background: #666666;
     padding-top: 30px;
     color: #444444;
+    position: fixed;
+    bottom: 0;
+    border-top: 7px solid #4aaaa5;
 }
 
 ul {
@@ -141,8 +139,33 @@ input[type=submit] {
     border-radius: 4px;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
 
+.column {
+    flex: 35%;
+    max-width: 35%;
+    padding: 10px;
+}
 
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.labeled-image {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    background: #4aaaa5;
+    color: white;
+    z-index: 2;
+}
 
 
 
