@@ -8,20 +8,21 @@
     background: lightslategrey;
 }
 
-.firstlayer {
-    width: 60%;
-    margin: 0 auto;
-    background: white;
+.labeled-image1,
+.labeled-image2,
+.labeled-image3,
+.labeled-image4,
+.labeled-image5 {
+    position: relative;
+    width: 200px;
 }
 
-.secondlayer {
-    width: 60%;
-    margin: 0 auto;
-    background: lightpink;
-}
-
-.thirdlayer {
-    width: 60%;
-    margin: 0 auto;
-    background: lightblue;
+.text-block {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #4aaaa5;
+    color: white;
+    z-index: 2;
 }
